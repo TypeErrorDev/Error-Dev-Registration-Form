@@ -38,11 +38,32 @@
   margin: 2px 10px 0 10px;
 }
 
+
+
+
+
+
 /* Form Styles */
 .h2-contact{
   align-self: flex-start;
   margin: 25px 0 0 10px;
 }
+fieldset {
+  border: none;
+}
+.contact-header {
+  align-self: flex-start;
+  color: #000000;
+  font-weight: bold;
+  font-size: 25px;
+  margin-left: 10px;
+  padding-top: 25px;
+}
+
+
+
+
+
 
 
 /* DRY Classes */
@@ -50,7 +71,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
 }
 .flex-child{
   align-self: center;
