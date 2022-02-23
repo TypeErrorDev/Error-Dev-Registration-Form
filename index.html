@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Sign Up Form</title>
-    <link rel="stylesheet" href="css/normalize.css" />
     <link
       href="http://fonts.googleapis.com/css?family=Nunito:400,300"
       rel="stylesheet"
@@ -106,61 +105,29 @@
         <label for="zipcode" class="">Zipcode</label>
         <input type="text" id="zipcode" name="contact-zipcode" class="input-field" placeholder="ex: 80909" maxlength="6">
 
+        <hr class="hr1 hr-bottom">
+
+        <!-- Newsletter section -->
+      <div class="bottom-news">
+        <h2>Newsletter</h2>
+        <p >Select the newsletters you would like to receive</p>
+      </div>
+
+      <!-- Checkboxes -->
+      <div class="check-html">
+        <input type="checkbox" name="news_html" id="check-html" value="html-news">
+        <label for="news_html">HTML News</label>      
+      </div>
 
 
 
-      </fieldset>
+
+
     </form>
     
     
     <!-- <form action="index.html" method="post">
    
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="user_name" />
-
-        <label for="mail">Email:</label>
-        <input type="email" id="mail" name="user_email" />
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="user_password" />
-
-        <label>Age:</label>
-        <input
-          type="radio"
-          id="under_13"
-          value="under_13"
-          name="user_age"
-        /><label for="under_13" class="light">Under 13</label><br />
-        <input
-          type="radio"
-          id="over_13"
-          value="over_13"
-          name="user_age"
-        /><label for="over_13" class="light">13 or older</label>
-      </fieldset>
-      <fieldset>
-        <legend><span class="number">2</span> Your profile</legend>
-
-        <label for="bio">Biography</label>
-        <textarea id="bio" name="user_bio"></textarea>
-
-        <label for="job">Job role</label>
-        <select id="job" name="user_job">
-          <optgroup label="Web">
-            <option value="frontend_developer">Front-End Developer</option>
-            <option value="php_developer">PHP Developer</option>
-            <option value="python_developer">Python Developer</option>
-            <option value="rails_developer">Front-End Developer</option>
-            <option value="web_designer">Web Designer</option>
-            <option value="wordpress_developer">WordPress Developer</option>
-          </optgroup>
-          <optgroup label="mobile">
-            <option value="android_developer">Android Developer</option>
-            <option value="ios_developer">iOS Developer</option>
-          </optgroup>
-
-          <option value="freelancer">Freelancer</option>
-        </select>
 
         <label>Interests:</label>
         <input
@@ -169,6 +136,7 @@
           value="interest_development"
           name="user_interest"
         /><label class="light" for="development">Development</label><br />
+
         <input
           type="checkbox"
           id="design"

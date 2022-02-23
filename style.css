@@ -18,20 +18,23 @@
   text-transform: uppercase;
   font-size: 1.5rem;
 }
-.newsletter h2{
+h2{
   color: #2C3945;
   margin-top: 30px;
   font-size: 1.5em;
 }
-.newsletter p{
+p{
   width: 80%;
   font-size: 1.2em;
-  color: #C6CACD;
+  color: #417196;
   margin-top: 20px;
 }
 .hr1 {
   border-top: 3px solid #000;
   margin: 45px 10px 0 10px;
+}
+.hr-bottom{
+  margin-bottom: 15px;
 }
 .hr2{
   border-bottom: 1px solid #000;
@@ -57,8 +60,8 @@ fieldset {
 }
 label{
   margin: 10px 0 10px 10px;
-  font-size: 24px;
-  color: #C6CACD;
+  font-size: 18px;
+  color: #417196;
 }
 input{
   height: 60px;
@@ -86,11 +89,16 @@ select{
   border: none;
 }
 #zipcode{
-
+  width: 50%;
 }
 
-
-
+/* Newsletter Section */
+.bottom-news{
+  margin-left:10px;
+}
+.bottom-news p{
+  text-align: center;
+}
 
 /* DRY Classes */
 .flexbox{
