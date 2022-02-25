@@ -115,18 +115,40 @@
 
       <!-- Checkboxes -->
       <div class="cb">
-        <input type="checkbox" name="news_html" id="check-html" value="html-news">
-        <label for="news_html">HTML News</label>      
+        <div class="cb2">
+          <input type="checkbox" name="news_html" id="check-html" value="html-news">
+          <label for="check-html">HTML News</label>
+        </div>
 
-        <input type="checkbox" name="news_css" id="check-css" value="css-news">
-        <label for="news_css">CSS News</label>      
+        <div class="cb2">
+          <input type="checkbox" name="news_css" id="check-css" value="css-news">
+          <label for="check-css">CSS News</label>
+        </div>
+
+        <div class="cb2">
+          <input type="checkbox" name="news_javascript" id="check-javascript" value="javascript-news">
+          <label for="check-javascript">javaScript News</label>
+        </div>
+
+        <p>Newsletter format</p>
+
+        <!-- Radio  -->
+        <div class="cb2">
+          <input type="radio" name="html-format" id="rd-html" value="rd-html">
+          <label for="rd-html">HTML</label>
+        </div>
+
+        <div class="cb2">
+          <input type="radio" name="html-format" id="rd-plain" value="rd-html">
+          <label for="rd-plain">Plain text</label>
+        </div>
+
+        <p>Other topics you'd like to hear about</p>
+
+        <textarea name="text" id="text" cols="30" rows="10"></textarea>
       </div>
 
-
-
-
-
+      <button class="signup">Sign Up</button>
     </form>
-    
   </body>
 </html>
