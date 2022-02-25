@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up Form</title>
     <link
       href="http://fonts.googleapis.com/css?family=Nunito:400,300"
@@ -15,140 +15,206 @@
     <div class="header flexbox"><h1>The Code Review</h1></div>
     <div class="newsletter flexbox">
       <h2 class="flex-child">Signup for our newsletter</h2>
-      <p class="flex-child">Get the latest news on how your code is doing right in your inbox.</p>
+      <p class="flex-child">
+        Get the latest news on how your code is doing right in your inbox.
+      </p>
     </div>
-    <hr class="hr1">
-    <hr class="hr2">
-    
+    <hr class="hr1" />
+    <hr class="hr2" />
+
     <form action="index.html" method="post" class="flexbox">
       <fieldset class="flexbox">
         <legend class="contact-header flex-child">Contact Information</legend>
 
         <!-- Ful Name -->
         <label for="name" class="">Full Name</label>
-        <input type="text" id="name" name="contact-name" required class=" input-field" placeholder="Required">
+        <input
+          type="text"
+          id="name"
+          name="contact-name"
+          required
+          class="input-field"
+          placeholder="Required"
+        />
 
         <!-- Email Address -->
         <label for="email" class="">Email Address</label>
-        <input type="email" id="email" name="contact-email" required class="input-field" placeholder="Required">
+        <input
+          type="email"
+          id="email"
+          name="contact-email"
+          required
+          class="input-field"
+          placeholder="Required"
+        />
 
         <!-- Phone Number -->
         <label for="phone" class="">Phone Number</label>
-        <input type="tel" id="phone" name="contact-phone" class="input-field" placeholder="(123) 456-7890">
+        <input
+          type="tel"
+          id="phone"
+          name="contact-phone"
+          class="input-field"
+          placeholder="(123) 456-7890"
+        />
 
         <!-- Street Address -->
         <label for="address" class="">Street Address</label>
-        <input type="text" id="address" name="contact-address" class="input-field">
+        <input
+          type="text"
+          id="address"
+          name="contact-address"
+          class="input-field"
+        />
 
         <!-- City -->
         <label for="city" class="">City</label>
-        <input type="text" id="city" name="contact-city" class="input-field">
+        <input type="text" id="city" name="contact-city" class="input-field" />
 
         <!-- State -->
         <label for="state" class="input">State</label>
         <select id="state" name="contact-state" class="input-box" size="1">
           <option value="disabled selcted" id="place">Choose State</option>
-            <option value="AK">AK</option>
-            <option value="AL">AL</option>
-            <option value="AR">AR</option>
-            <option value="AZ">AZ</option>
-            <option value="CA">CA</option>
-            <option value="CO">CO</option>
-            <option value="CT">CT</option>
-            <option value="DC">DC</option>
-            <option value="DE">DE</option>
-            <option value="FL">FL</option>
-            <option value="GA">GA</option>
-            <option value="HI">HI</option>
-            <option value="IA">IA</option>
-            <option value="ID">ID</option>
-            <option value="IL">IL</option>
-            <option value="IN">IN</option>
-            <option value="KS">KS</option>
-            <option value="KY">KY</option>
-            <option value="LA">LA</option>
-            <option value="MA">MA</option>
-            <option value="MD">MD</option>
-            <option value="ME">ME</option>
-            <option value="MI">MI</option>
-            <option value="MN">MN</option>
-            <option value="MO">MO</option>
-            <option value="MS">MS</option>
-            <option value="MT">MT</option>
-            <option value="NC">NC</option>
-            <option value="ND">ND</option>
-            <option value="NE">NE</option>
-            <option value="NH">NH</option>
-            <option value="NJ">NJ</option>
-            <option value="NM">NM</option>
-            <option value="NV">NV</option>
-            <option value="NY">NY</option>
-            <option value="OH">OH</option>
-            <option value="OK">OK</option>
-            <option value="OR">OR</option>
-            <option value="PA">PA</option>
-            <option value="RI">RI</option>
-            <option value="SC">SC</option>
-            <option value="SD">SD</option>
-            <option value="TN">TN</option>
-            <option value="TX">TX</option>
-            <option value="UT">UT</option>
-            <option value="VA">VA</option>
-            <option value="VT">VT</option>
-            <option value="WA">WA</option>
-            <option value="WI">WI</option>
-            <option value="WV">WV</option>
-            <option value="WY">WY</option>
+          <option value="AK">AK</option>
+          <option value="AL">AL</option>
+          <option value="AR">AR</option>
+          <option value="AZ">AZ</option>
+          <option value="CA">CA</option>
+          <option value="CO">CO</option>
+          <option value="CT">CT</option>
+          <option value="DC">DC</option>
+          <option value="DE">DE</option>
+          <option value="FL">FL</option>
+          <option value="GA">GA</option>
+          <option value="HI">HI</option>
+          <option value="IA">IA</option>
+          <option value="ID">ID</option>
+          <option value="IL">IL</option>
+          <option value="IN">IN</option>
+          <option value="KS">KS</option>
+          <option value="KY">KY</option>
+          <option value="LA">LA</option>
+          <option value="MA">MA</option>
+          <option value="MD">MD</option>
+          <option value="ME">ME</option>
+          <option value="MI">MI</option>
+          <option value="MN">MN</option>
+          <option value="MO">MO</option>
+          <option value="MS">MS</option>
+          <option value="MT">MT</option>
+          <option value="NC">NC</option>
+          <option value="ND">ND</option>
+          <option value="NE">NE</option>
+          <option value="NH">NH</option>
+          <option value="NJ">NJ</option>
+          <option value="NM">NM</option>
+          <option value="NV">NV</option>
+          <option value="NY">NY</option>
+          <option value="OH">OH</option>
+          <option value="OK">OK</option>
+          <option value="OR">OR</option>
+          <option value="PA">PA</option>
+          <option value="RI">RI</option>
+          <option value="SC">SC</option>
+          <option value="SD">SD</option>
+          <option value="TN">TN</option>
+          <option value="TX">TX</option>
+          <option value="UT">UT</option>
+          <option value="VA">VA</option>
+          <option value="VT">VT</option>
+          <option value="WA">WA</option>
+          <option value="WI">WI</option>
+          <option value="WV">WV</option>
+          <option value="WY">WY</option>
         </select>
 
         <!-- Zip Code -->
         <label for="zipcode" class="">Zipcode</label>
-        <input type="text" id="zipcode" name="contact-zipcode" class="input-field" placeholder="ex: 80909" maxlength="6">
+        <input
+          type="text"
+          id="zipcode"
+          name="contact-zipcode"
+          class="input-field"
+          placeholder="ex: 80909"
+          maxlength="6"
+        />
 
-        <hr class="hr1 hr-bottom">
+        <hr class="hr1 hr-bottom" />
 
         <!-- Newsletter section -->
+      </fieldset>
       <div class="bottom-news">
-        <h2>Newsletter</h2>
-        <p >Select the newsletters you would like to receive</p>
+        <legend class="newsletter-header flex-child">Newsletter</legend>
+
+        <p>Select the newsletters you would like to receive</p>
       </div>
 
       <!-- Checkboxes -->
-      <div class="cb">
-        <div class="cb2">
-          <input type="checkbox" name="news_html" id="check-html" value="html-news">
-          <label for="check-html">HTML News</label>
+      <fieldset>
+        <div class="cb">
+          <div class="cb2">
+            <input
+              type="checkbox"
+              name="news_html"
+              id="check-html"
+              value="html-news"
+            />
+            <label for="check-html">HTML News</label>
+          </div>
+
+          <div class="cb2">
+            <input
+              type="checkbox"
+              name="news_css"
+              id="check-css"
+              value="css-news"
+            />
+            <label for="check-css">CSS News</label>
+          </div>
+
+          <div class="cb2">
+            <input
+              type="checkbox"
+              name="news_javascript"
+              id="check-javascript"
+              value="javascript-news"
+            />
+            <label for="check-javascript">javaScript News</label>
+          </div>
+
+          <p>Newsletter format</p>
+
+          <!-- Radio  -->
+          <div class="cb2">
+            <input
+              type="radio"
+              name="html-format"
+              id="rd-html"
+              value="rd-html"
+            />
+            <label for="rd-html">HTML</label>
+          </div>
+
+          <div class="cb2">
+            <input
+              type="radio"
+              name="html-format"
+              id="rd-plain"
+              value="rd-html"
+            />
+            <label for="rd-plain">Plain text</label>
+          </div>
         </div>
+      </fieldset>
 
-        <div class="cb2">
-          <input type="checkbox" name="news_css" id="check-css" value="css-news">
-          <label for="check-css">CSS News</label>
-        </div>
-
-        <div class="cb2">
-          <input type="checkbox" name="news_javascript" id="check-javascript" value="javascript-news">
-          <label for="check-javascript">javaScript News</label>
-        </div>
-
-        <p>Newsletter format</p>
-
-        <!-- Radio  -->
-        <div class="cb2">
-          <input type="radio" name="html-format" id="rd-html" value="rd-html">
-          <label for="rd-html">HTML</label>
-        </div>
-
-        <div class="cb2">
-          <input type="radio" name="html-format" id="rd-plain" value="rd-html">
-          <label for="rd-plain">Plain text</label>
-        </div>
-
-        <p>Other topics you'd like to hear about</p>
+      <div class="bottom-text">
+        <label for="text">Other topics you'd like to hear about</label>
 
         <textarea name="text" id="text" cols="30" rows="10"></textarea>
       </div>
 
       <button class="signup">Sign Up</button>
     </form>
+    <footer>Copyright The Code Review</footer>
   </body>
 </html>
