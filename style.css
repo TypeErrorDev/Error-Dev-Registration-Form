@@ -75,7 +75,7 @@ input {
   border: none;
 }
 input[name*="contact"],
-input[for=] {
+input[id^="state"] {
   background-color: #f2f2f2;
   border: 1px solid #ccc;
   -webkit-transition: all 0.2s ease-out;
@@ -123,6 +123,11 @@ select {
 }
 
 /* Newsletter Section */
+.newsletter-header{
+ text-align: left;
+}
+
+
 .bottom-news {
   margin-left: 10px;
 }
@@ -208,6 +213,25 @@ footer {
     margin: 10px auto;
   }
 
+  .input-field{
+    width: 60%;
+    align-self: flex-end;
+  }
+  .fs-top label {
+    display: flex;
+    justify-content: flex-start;
+    align-items:baseline;
+    width: 20%;
+  }
+
+  #state{
+    width: 60%;
+    align-self: flex-end;
+  }
+  #zipcode{
+    width: 25%;
+    align-self: flex-start;
+  }
   textarea {
     width: 100%;
     height: 130px;
