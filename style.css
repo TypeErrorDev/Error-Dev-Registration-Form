@@ -102,9 +102,9 @@ input::placeholder {
   font-style: italic;
   font-size: 16px;
 }
-textarea::placeholder{
-font-size: large;
-text-align: center;
+textarea::placeholder {
+  font-size: large;
+  text-align: center;
 }
 
 select {
@@ -138,7 +138,7 @@ select {
 #check-css,
 #check-javascript,
 #rd-html,
-#rd-plain{
+#rd-plain {
   height: 20px;
 }
 
@@ -208,14 +208,26 @@ footer {
     margin: 10px auto;
   }
 
+  textarea {
+    width: 100%;
+    height: 130px;
+  }
+  textarea::placeholder {
+    text-align: center;
+  }
+
   .bottom-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
   }
+  .bottom-text label {
+    align-self: flex-start;
+  }
 
   .signup {
     align-self: center;
+    width: 100%;
   }
 }
