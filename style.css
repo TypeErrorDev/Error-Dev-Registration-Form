@@ -230,10 +230,10 @@ footer {
     transform: translate(2px, 2px);
   }
   input[name$="zipcode"] {
-    width: 25%;
+    width: 21%;
   }
   .zipcode input {
-    margin-right: 50%;
+    margin-right: 54%;
     margin-bottom: 10px;
   }
 
