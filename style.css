@@ -147,6 +147,7 @@ textarea:focus {
   color: #000;
   background: rgb(238, 221, 221);
   outline: 0;
+  transition: ease-out;
 }
 /* Textarea */
 textarea {
@@ -185,9 +186,20 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  .hr2 {
-    margin: 2px 10px 0 10px;
+  form {
+    width: 700px;
+    display: flex;
+    margin: auto;
+    /* outline: 1px solid red; */
   }
+  .hr1 {
+    width: 680px;
+    margin: auto;
+  }
+  .hr2 {
+    margin: 3px 416px 10px 416px;
+  }
+
   /* Form */
   .dt-input {
     flex-direction: row;
@@ -198,19 +210,32 @@ footer {
     margin-right: 10px;
   }
   input[name^="contact"] {
-    width: 600px;
+    width: 500px;
   }
   select {
-    width: 600px;
+    width: 500px;
   }
   input[name$="zipcode"] {
     width: 25%;
   }
-
-
-  /* Newsletter */
-  textarea,.signup-btn{
-    width: 100%;
+  .zipcode input {
+    margin-right: 50%;
+    margin-bottom: 10px;
   }
 
+  /* Newsletter */
+
+  textarea,
+  .signup-btn {
+    width: 100%;
+  }
+  .signup-btn{
+    margin-bottom: 10px;
+  }
+
+  /* Footer */
+  footer {
+    width: 680px;
+    margin: auto;
+  }
 }
