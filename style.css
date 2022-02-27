@@ -102,9 +102,10 @@ select:focus {
   background: rgb(238, 221, 221);
 }
 
-#zipcode{
+.zipcode input{
   width: 50%;
 }
+
 
 /* Newsletter */
 .fs-bottom {
