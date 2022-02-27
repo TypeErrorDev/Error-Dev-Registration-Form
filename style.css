@@ -206,4 +206,11 @@ footer {
   input[name$="zipcode"] {
     width: 25%;
   }
+
+
+  /* Newsletter */
+  textarea,.signup-btn{
+    width: 100%;
+  }
+
 }
