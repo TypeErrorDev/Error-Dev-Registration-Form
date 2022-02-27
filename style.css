@@ -137,8 +137,9 @@ select:focus {
 .rd2 {
   margin: 10px 0 15px 0;
 }
-input[name*="contact"],textarea{
-transition: transform 1s;
+input[name*="contact"],
+textarea {
+  transition: transform 1s;
 }
 input[name*="contact"]:focus,
 textarea:focus {
@@ -146,7 +147,7 @@ textarea:focus {
   color: #000;
   background: rgb(238, 221, 221);
   outline: 0;
-  transform: translate(2px,2px);
+  transform: translate(2px, 2px);
 }
 
 /* Textarea */
@@ -216,8 +217,8 @@ footer {
     width: 500px;
     transition: transform 1s;
   }
-  select:focus{
-    transform: translate(2px,2px);
+  select:focus {
+    transform: translate(2px, 2px);
   }
   input[name$="zipcode"] {
     width: 25%;
@@ -233,7 +234,7 @@ footer {
   .signup-btn {
     width: 100%;
   }
-  .signup-btn{
+  .signup-btn {
     margin-bottom: 10px;
   }
 
